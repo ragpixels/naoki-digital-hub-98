@@ -1,7 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Code, Zap, TrendingUp } from "lucide-react";
-import { useTranslation } from "../hooks/useTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const ServicesSection = () => {
   const { t } = useTranslation();

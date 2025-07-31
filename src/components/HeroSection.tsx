@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Code, TrendingUp, Target } from "lucide-react";
-import { useTranslation } from "../hooks/useTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const HeroSection = () => {
   const { language, t } = useTranslation();

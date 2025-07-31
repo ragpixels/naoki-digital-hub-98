@@ -6,7 +6,7 @@ import {
   Instagram, 
   MessageCircle
 } from "lucide-react";
-import { useTranslation } from "../hooks/useTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const Footer = () => {
   const { t } = useTranslation();

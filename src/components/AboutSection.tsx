@@ -11,7 +11,7 @@ import {
   Zap,
   Heart
 } from "lucide-react";
-import { useTranslation } from "../hooks/useTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const AboutSection = () => {
   const { t } = useTranslation();

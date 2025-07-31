@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Menu, X, Globe, ChevronDown } from "lucide-react";
 import { useState } from "react";
-import { useTranslation } from "../hooks/useTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
